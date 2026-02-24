@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- NFC Tag Reading -->
+	<key>com.apple.developer.nfc.readersession.formats</key>
+	<array>
+		<string>NDEF</string>
+		<string>TAG</string>
+	</array>
+
+	<!-- Application Groups (optional - for data sharing) -->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.example.nfcmanagement</string>
+	</array>
+</dict>
+</plist>
